@@ -27,6 +27,7 @@ main {
 .title {
   font-size: 2rem;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .instructions {
@@ -61,9 +62,8 @@ main {
 }
 
 .btn-roll {
-  width: 100px;
+  width: 150px;
   height: 50px;
-  margin-bottom:  30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,4 +86,21 @@ main {
 
 .btn-roll:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.stats {
+  margin: 0px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.rerolls {
+  width: 100%;
+  text-align: left;
+}
+
+.timer {
+  width: 100%;
+  text-align: right;
 }
